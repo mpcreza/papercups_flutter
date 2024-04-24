@@ -42,9 +42,9 @@ class _MyHomePageState extends State<MyHomePage> {
   var elevated = false;
 
   TextEditingController titleController =
-      TextEditingController(text: "Welcome to Papercups!");
+  TextEditingController(text: "Welcome to Papercups!");
   TextEditingController subtitleController =
-      TextEditingController(text: "Ask us anything using the chat window!");
+  TextEditingController(text: "Ask us anything using the chat window!");
   Color color = Color(0xff1890ff);
 
   @override
@@ -138,8 +138,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.resolveWith<Color>(
-                              (Set<MaterialState> states) {
+                            MaterialStateProperty.resolveWith<Color>(
+                                  (Set<MaterialState> states) {
                                 return Colors
                                     .white; // Use the component's default.
                               },
@@ -303,7 +303,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         title: titleController.text,
                         subtitle: subtitleController.text,
                         greeting:
-                            "Hello, have any questions or feedback? Let me know below!",
+                        "Hello, have any questions or feedback? Let me know below!",
                       ),
                       floatingSendMessage: elevated,
                       closeAction: () {
@@ -313,8 +313,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       style: PapercupsStyle(primaryColor: color),
                       customer: PapercupsCustomerMetadata(
-                        email: "admin@aguilaair.tech",
-                        externalId: "123",
+                        email: "ewqwqr@aguilaair.tech",
+                        externalId: "dvsdvdsvsdvsd",
                       ),
                     ),
                   ),
