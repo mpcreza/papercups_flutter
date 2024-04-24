@@ -21,7 +21,7 @@ Future<void> webFilePicker({
         textStyle: widget.props.style.chatUploadingAlertTextStyle ??
             Theme.of(context).textTheme.bodyMedium,
         backgroundColor: widget.props.style.chatUploadingAlertBackgroundColor ??
-            BottomAppBarTheme.of(context).color!,
+            Alert.defaultBgColor,
         gravity: Alert.bottom,
         duration: Alert.lengthLong,
       );
@@ -39,7 +39,7 @@ Future<void> webFilePicker({
       textStyle: widget.props.style.chatUploadErrorAlertTextStyle ??
           Theme.of(context).textTheme.bodyMedium,
       backgroundColor: widget.props.style.chatUploadErrorAlertBackgroundColor ??
-          BottomAppBarTheme.of(context).color!,
+          Alert.defaultBgColor,
       gravity: Alert.bottom,
       duration: Alert.lengthLong,
     );

@@ -134,7 +134,7 @@ class _ChatMessageState extends State<ChatMessage> {
               Theme.of(context).textTheme.bodyMedium,
           backgroundColor:
               widget.props.style.chatCopiedTextAlertBackgroundColor ??
-                  BottomAppBarTheme.of(context).color!,
+                  Alert.defaultBgColor,
           gravity: Alert.bottom,
           duration: Alert.lengthLong,
         );

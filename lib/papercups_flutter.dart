@@ -107,7 +107,7 @@ class _PapercupsWidgetState extends State<PapercupsWidget> {
                 Theme.of(context).textTheme.bodyMedium,
             backgroundColor:
                 widget.props.style.chatNoConnectionAlertBackgroundColor ??
-                    BottomAppBarTheme.of(context).color!,
+                    Alert.defaultBgColor,
             gravity: Alert.bottom,
             duration: Alert.lengthLong,
           );

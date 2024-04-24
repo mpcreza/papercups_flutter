@@ -32,10 +32,12 @@ class Alert {
   static const int center = 1;
   static const int top = 2;
 
+  static const Color defaultBgColor = Colors.white;
+
   static void show(String msg, BuildContext context,
       {int duration = 1,
       int gravity = 0,
-      Color backgroundColor = const Color(0xAA000000),
+      Color backgroundColor = defaultBgColor,
       textStyle = const TextStyle(fontSize: 15, color: Colors.white),
       double backgroundRadius = 20,
       bool? rootNavigator,
