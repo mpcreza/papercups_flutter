@@ -117,10 +117,10 @@ class ChatBubble extends StatelessWidget {
               constraints: BoxConstraints(
                 maxWidth: maxWidth,
               ),
-              margin: EdgeInsets.only(
+              margin: EdgeInsetsDirectional.only(
                 top: isFirst ? 15 : 4,
                 bottom: 4,
-                right: userSent ? 18 : 0,
+                end: userSent ? 18 : 0,
               ),
               padding: const EdgeInsets.symmetric(
                 vertical: 8,
@@ -204,7 +204,7 @@ class ChatBubble extends StatelessWidget {
         ),
         if (!userSent && ((nextMsg.userId != msg.userId) || isLast))
           Padding(
-            padding: const EdgeInsets.only(left: 16, bottom: 5, top: 4),
+            padding: const EdgeInsetsDirectional.only(start: 16, bottom: 5, top: 4),
             child: (msg.user!.displayName == null)
                 ? Text(
                     msg.user!.email!,

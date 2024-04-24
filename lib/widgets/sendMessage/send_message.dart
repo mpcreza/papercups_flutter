@@ -206,7 +206,7 @@ class _SendMessageState extends State<SendMessage> {
             ],
           ),
       child: Padding(
-        padding: const EdgeInsets.only(left: 15, right: 0),
+        padding: const EdgeInsetsDirectional.only(start: 15, end: 0),
         child: Row(
           children: [
             Expanded(
@@ -234,7 +234,7 @@ class _SendMessageState extends State<SendMessage> {
                 child: Container(
                   height: 36,
                   width: 36,
-                  margin: const EdgeInsets.only(right: 8),
+                  margin: const EdgeInsetsDirectional.only(end: 8),
                   decoration: BoxDecoration(
                     color: widget.props.style.primaryColor,
                     gradient: widget.props.style.primaryGradient,
